@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/puzzle/static/css/main.e7805ffc.css",
+    "main.js": "/puzzle/static/js/main.e8ceb7e1.js",
+    "static/js/787.757d1824.chunk.js": "/puzzle/static/js/787.757d1824.chunk.js",
+    "static/media/Background table.jpg": "/puzzle/static/media/Background table.ed8bd5d06573b53c37d8.jpg",
+    "static/media/Square-8.jpg": "/puzzle/static/media/Square-8.d0cba4fdf442632cb958.jpg",
+    "static/media/Square-9.jpg": "/puzzle/static/media/Square-9.cca29e108d80a6f62b92.jpg",
+    "static/media/Square-7.jpg": "/puzzle/static/media/Square-7.354b5aaf9be2823a9850.jpg",
+    "static/media/Square-5.jpg": "/puzzle/static/media/Square-5.e60d4ab5e79d174975c2.jpg",
+    "static/media/Square-6.jpg": "/puzzle/static/media/Square-6.19d70d417c34c424a158.jpg",
+    "static/media/Square-3.jpg": "/puzzle/static/media/Square-3.21796b4a216ac561eb7e.jpg",
+    "static/media/Square-2.jpg": "/puzzle/static/media/Square-2.4cccd10e52d70db1ec03.jpg",
+    "static/media/Square-4.jpg": "/puzzle/static/media/Square-4.81408a855071ad129790.jpg",
+    "static/media/Square-1.jpg": "/puzzle/static/media/Square-1.55f9ccf6771c5e5efa7e.jpg",
+    "index.html": "/puzzle/index.html",
+    "main.e7805ffc.css.map": "/puzzle/static/css/main.e7805ffc.css.map",
+    "main.e8ceb7e1.js.map": "/puzzle/static/js/main.e8ceb7e1.js.map",
+    "787.757d1824.chunk.js.map": "/puzzle/static/js/787.757d1824.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7805ffc.css",
+    "static/js/main.e8ceb7e1.js"
+  ]
+}
