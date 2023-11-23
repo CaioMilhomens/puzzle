@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puzzle/static/css/main.e7805ffc.css",
-    "main.js": "/puzzle/static/js/main.c2e2a36e.js",
+    "main.js": "/puzzle/static/js/main.cafc5aeb.js",
     "static/js/787.757d1824.chunk.js": "/puzzle/static/js/787.757d1824.chunk.js",
     "static/media/Background table.jpg": "/puzzle/static/media/Background table.ed8bd5d06573b53c37d8.jpg",
     "static/media/Square-8.jpg": "/puzzle/static/media/Square-8.d0cba4fdf442632cb958.jpg",
@@ -15,11 +15,11 @@
     "static/media/Square-1.jpg": "/puzzle/static/media/Square-1.55f9ccf6771c5e5efa7e.jpg",
     "index.html": "/puzzle/index.html",
     "main.e7805ffc.css.map": "/puzzle/static/css/main.e7805ffc.css.map",
-    "main.c2e2a36e.js.map": "/puzzle/static/js/main.c2e2a36e.js.map",
+    "main.cafc5aeb.js.map": "/puzzle/static/js/main.cafc5aeb.js.map",
     "787.757d1824.chunk.js.map": "/puzzle/static/js/787.757d1824.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7805ffc.css",
-    "static/js/main.c2e2a36e.js"
+    "static/js/main.cafc5aeb.js"
   ]
 }
