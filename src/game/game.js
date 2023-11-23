@@ -13,51 +13,29 @@ const Game = () => {
     }
 
     function startGame () {
-        const randomList = [];
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        randomList.push(getRandomArbitrary(0,4));
-        console.log(randomList)
+        const randomList = Array.from({length: 9}, () => getRandomArbitrary(0,4));
         setJuego({list:[...randomList],buttonHide: true, estado: "começado", trava: false})
     }
 
     function playGame (number, index) {
-        console.log("jogando");
-        console.log(number);
 
         if (number <= 2) {
-            console.log("o numero é menor que 2");
             number += 1;
             juego.list[index] = number;
-            console.log(juego.list);
             setJuego({list:[...juego.list], buttonHide: true, estado:"começado", trava: false})
         } else if (number === 3) {
-            console.log("o número é maior");
             number = 0;
             juego.list[index] = number;
-            console.log(juego.list)
             setJuego({list:[...juego.list], buttonHide: true, estado:"começado", trava: false})
         }
 
-        if (juego.list[0] === 1 &&
-            juego.list[1] === 1 &&
-            juego.list[2] === 1 &&
-            juego.list[3] === 1 &&
-            juego.list[4] === 1 &&
-            juego.list[5] === 1 &&
-            juego.list[6] === 1 &&
-            juego.list[7] === 1 &&
-            juego.list[8] === 1) {
+        const gameChecker = (element) => element === 1;
+            
+        if (juego.list.every(gameChecker)) 
+        {
             console.log("jogo finalizado");
             setJuego({list:[...juego.list], buttonHide: true, estado:"acabado", trava: true})
         }
-
     }
 
 
