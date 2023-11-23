@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@keyframes north {
+    from {transform: rotate(270deg)}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes east {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(90deg);}
+}
+
+@keyframes south {
+    from {transform: rotate(90deg)}
+    to {transform: rotate(180deg);}
+}
+
+@keyframes west {
+    from {transform: rotate(180deg)}
+    to {transform: rotate(270deg);}
+}
+
+@keyframes botao {
+    0% {transform: scale(1, 1)}
+    50% {transform: scale(1.2, 1.2)}
+    100% {transform: scale(1, 1)}
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.trava {
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-image: url("/assets/images/Background\ table.jpg");
+}
+
+.linha {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    color: transparent;
+}
+
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    user-select: none;
+}
+
+.imagem0 {
+    background-image: url("/assets/images/Square-1.jpg");
+    background-size: cover
+}
+.imagem1 {
+    background-image: url("/assets/images/Square-2.jpg");
+    background-size: cover
+}
+.imagem2 {
+    background-image: url("/assets/images/Square-3.jpg");
+    background-size: cover
+}
+.imagem3 {
+    background-image: url("/assets/images/Square-4.jpg");
+    background-size: cover
+}
+.imagem4 {
+    background-image: url("/assets/images/Square-5.jpg");
+    background-size: cover
+}
+.imagem5 {
+    background-image: url("/assets/images/Square-6.jpg");
+    background-size: cover
+}
+.imagem6 {
+    background-image: url("/assets/images/Square-7.jpg");
+    background-size: cover
+}
+.imagem7 {
+    background-image: url("/assets/images/Square-8.jpg");
+    background-size: cover
+}
+.imagem8 {
+    background-image: url("/assets/images/Square-9.jpg");
+    background-size: cover
+}
+
+.number0 {
+    animation-name: west;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.number1 {
+    animation-name: north;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.number2 {
+    animation-name: east;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.number3 {
+    animation-name: south;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.botao {
+    animation-name: botao;
+    animation-duration: 2s;
+    animation-fill-mode:none;
+    animation-iteration-count: infinite;
+}
