@@ -65,9 +65,9 @@ const Game = () => {
         <div>
              
             <div className='wrapper'>
-                <p className={juego.buttonHide ? "hide": null}>Wellcome to the image puzzle game!</p>
+                <p className={juego.buttonHide ? "hide": null}>Welcome to the image puzzle game!</p>
                 <button className={`botao ${juego.buttonHide ? "hide": null}`}  onClick={() => startGame()}>Start-Game!</button>
-                <div className={` ${juego.estado==="começado"? null : "hide"}`} >rearrenge de images by clicking on them!</div>
+                <div className={` ${juego.estado==="começado"? null : "hide"}`} >rearrenge the images by clicking on them!</div>
                 <div className='linha'>
                     
                     {juego.list.slice(0,3).map((e, index) => <div className={`bloco imagem${index} number${e} ${juego.trava ? "trava": null}`} key={index} onClick={() => playGame(e,index)}>{e}</div>)}
